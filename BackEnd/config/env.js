@@ -6,4 +6,4 @@ config(
     }
 )
 
-export const { PORT, NODE_ENV, MongoDB_URI} = process.env
+export const { PORT, NODE_ENV, MongoDB_URI, JWT_SECRET, JWT_EXPIRES_IN, ARCJET_KEY, ARCJET_ENV} = process.env
